@@ -1,5 +1,23 @@
+body {
+  font-family: "Poppins" sans-serif;
+  background-color: blanchedalmond;
+}
+
+header {
+  background-color: wheat;
+  width: 70%;
+  margin: 0 auto;
+}
+
 .text {
   font-size: 200px;
+}
+
+.project {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 800px;
 }
 
 .footer-container {
@@ -10,5 +28,16 @@
 }
 
 .link {
+  display: block;
+}
+
+img {
+  width: 100%;
+}
+
+.vertical-image {
+  width: max-content;
+  height: 500px;
+  margin: 0 auto;
   display: block;
 }
